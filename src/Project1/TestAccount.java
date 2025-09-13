@@ -9,7 +9,7 @@ public class TestAccount {
 		System.out.println(Acc1.getName() + "'s balance: " + Acc1.getBalance());
 		System.out.println(Acc2.getName() + "'s balance: " + Acc2.getBalance());
 
-		Acc1.transferTo(Acc2, 1250);
+		Acc1.transferTo(Acc2, 1000);
 
 		System.out.println(" ");
 		System.out.println("After transfer balances:");

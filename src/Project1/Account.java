@@ -17,6 +17,7 @@ public class Account {
 	public String getName() {return name;}
 	public int getBalance() {return balance;}
 
+	//Mutators
 	public int credit(int amount){
 		balance += amount;
 		return balance;
@@ -42,6 +43,7 @@ public class Account {
 		return balance;
 	}
 
+	//toString method
 	public String toString() {
 		return "Account[id=" + this.id + ", name=" + this.name + ", balance=" + this.balance + "]";
 	}
