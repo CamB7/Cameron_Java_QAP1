@@ -1,6 +1,7 @@
 package Project2;
 
 public class Date {
+	// Instance Variables
 	private int day;
 	private int month;
 	private int year;

@@ -1,6 +1,7 @@
 package Project1;
 
 public class Account {
+	// Instance Variables
 	private String id;
 	private String name;
 	private int balance = 0;
